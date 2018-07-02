@@ -9,5 +9,5 @@ RUN apt-get update && \
 	apt-get update
 
 
-RUN apt-get install ros-kinetic-desktop-full
+RUN apt-get -yq install ros-kinetic-desktop-full
 	
